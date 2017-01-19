@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZksYiFeRBzR9B6XqMD8wSZe8G6B9IloYdT5eEiRs1VQKVIdoaXVIhTE3S1IIVvFLtF83CrARhrWD0i3YLaxx4EnW+SSa4KfqyJLU4Fzn6j3MXdzDr63he50Y//0lGqZJFc8VeyK86WqoiPA1RiUhKR6/gQo26OUKGjohRP5wFclceiz2F9xNb/t4WxakaA4p8ncyrP6ZFGaHdGJhAJQkEwTFGF6VAcRW4EuPvrTluhN5phDLREr6scYp/roWIt9UhLz4/mwgC7yxrb7jMSuE0cTRf3dJWRuq+nZflDpswxgWwUM4jYsqipiHf2OeNmBFlBSK8rSVxBeS7cSCOPWE/3880YpBbw7/PMPJP/D12gJMI7BrWUUazhpUknZEe3drd1x20riDDmqfEf5R/GxZ6d+XovqXKBAXvjBGam7wu4+DXC8fqf0c3oWaOoxj67DnjyOcLHcKm0E1bbeLe/qVVbuX+w3yDc7e1ngnv1YdyiRuLhKzoGXW7j+7UsuXnMK00tsLEcK4huDGrMEhJ6dzv9rz0DBXbrXmqlVUze06ImnDML6PyklJOgdnhhJf2QPFfqL7+jpmnt+AgWHNZ7bEhXLtrBnQ1/TN0U4wFwnxc/M7H3L7YKRD67hIt4++CYFOk3n5ofZA1AGhWhtqWK5Z3Pc4N6oUtRaP4g05TPVvThw=
+  app: ⬢ mysterious-everglades-83952
+  on:
+    repo: chasingSublimity/node-restaurants-app-mongoose-CI-1
